@@ -81,4 +81,8 @@
 2. Run the app:
    `npm run dev`
 
+## تصاویر [Screenshots](Screenshots/)
+[Screenshots](Screenshots/Screenshot%20(179).png)
+[Screenshots](Screenshots/{5AC416A5-7B40-4CB8-B072-2C579EFAC56C}.png)
+
 ## توسط: سید علی بختیاری
