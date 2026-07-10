@@ -1,0 +1,6 @@
+{
+  "name": "Library Microservices Dashboard",
+  "description": "A modern, professional dashboard for managing books, library members, and loan transactions, designed to integrate with a Microservices & CQRS library architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

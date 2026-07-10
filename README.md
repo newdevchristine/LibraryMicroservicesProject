@@ -73,4 +73,12 @@
 * **Delete (حذف - DELETE):** `http://localhost:5288/api/books/{id}`
 
 *نکته: مستندات رسمی ساختارها طبق استانداردهای دات‌نت ۱۰ در آدرس `/openapi/v1.json` هر سرویس در دسترس است.*
+
+پوشه Ui ./library-microservices-dashboard 
+1. Install dependencies:
+   `npm install`
+
+2. Run the app:
+   `npm run dev`
+   
 ## توسط: سید علی بختیاری
