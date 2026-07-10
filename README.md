@@ -60,7 +60,7 @@
     ```
 * **Delete (حذف - DELETE):** `http://localhost:5163/api/users/{id}`
 
-#### ۲. میکروسرویس کتاب‌ها (BookService [BookService](BookService.Api/) - پورت 5288):
+#### ۲. میکروسرویس کتاب‌ها ([BookService](BookService.Api/) - پورت 5288):
 * **Create (نوشتن - POST):** `http://localhost:5288/api/books`
     ```json
     { "title": "بوستان", "author": "سعدی" }
