@@ -48,7 +48,7 @@
 
 برای تست، ابتدا وارد پوشه API هر میکروسرویس شده و دستور `dotnet run` را بزنید. سپس درخواست‌های زیر را در Postman ارسال کنید:
 
-#### ۱. میکروسرویس کاربران (UserService - پورت 5163):
+#### ۱. میکروسرویس کاربران ([UserService](UserService.Api/) - پورت 5163):
 * **Create (نوشتن - POST):** `http://localhost:5163/api/users`
     ```json
     { "username": "baran", "email": "baran@email.com", "fullName": "باران علوی" }
@@ -60,7 +60,7 @@
     ```
 * **Delete (حذف - DELETE):** `http://localhost:5163/api/users/{id}`
 
-#### ۲. میکروسرویس کتاب‌ها (BookService - پورت 5288):
+#### ۲. میکروسرویس کتاب‌ها (BookService [BookService](BookService.Api/) - پورت 5288):
 * **Create (نوشتن - POST):** `http://localhost:5288/api/books`
     ```json
     { "title": "بوستان", "author": "سعدی" }
@@ -74,11 +74,11 @@
 
 *نکته: مستندات رسمی ساختارها طبق استانداردهای دات‌نت ۱۰ در آدرس `/openapi/v1.json` هر سرویس در دسترس است.*
 
-پوشه Ui ./library-microservices-dashboard 
+پوشه محیط کاربری [library-microservices-dashboard](library-microservices-dashboard/)
 1. Install dependencies:
    `npm install`
 
 2. Run the app:
    `npm run dev`
-   
+
 ## توسط: سید علی بختیاری
